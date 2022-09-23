@@ -1,0 +1,16 @@
+{
+    "name": "RoseTimer Pomodoro Timer",
+    "description": "This extensions helps you time your study sessions and enables you to stay focused for longer.",
+    "version": "0.1",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [],
+    "action": {
+        "default_popup": "popup/popup.html",
+        "default_icon": {
+            "128": "assets/logo128.png"
+        }
+    }
+}

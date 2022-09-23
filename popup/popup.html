@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="popup.css">
+    </head>
+    <body>
+        <div class="options">
+            <div class="option option-masktoggle">
+                <label for="toggleMask" id="mask-toggle-label">
+                    <div class="logo-div">
+                        <img src="../assets/logo128.png">
+                    </div>
+                </label>
+                <input type="checkbox" name="toggleMask" id="toggleMask">
+            </div>
+            <div class="option option-masksize">
+                <label id="size-label" for="size">Size</label>
+                <input type="number" step="10" name="size" id="mask-size-input" value="130">
+                <span id="size-units-label">pixels</span>
+            </div>
+        </div>
+        <div class="footnote">
+            <div id="report-issue-div">
+                <a target="_blank" id="report-issue" href="https://github.com/Zach-Clare/rosemask/issues">Report a problem</a>
+            </div>
+            <div id="donate-div">
+                <a target="_blank" id="donate" href="https://www.buymeacoffee.com/zachc">Donate</a>
+            </div>
+        </div>
+        <script src="popup.js"></script>
+    </body>
+</html>
